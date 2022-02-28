@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JcmusicSakura</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Noto+Sans&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <style>
+      #foo{
+        font-size: 30px
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+  　<header class="header">
+      <h1 class="header-title">JCmusic</h1>
+      <div class="header-list">
+      <ul>
+        <li><%= link_to "紹介ページ/介绍", musics_about_path %></li>
+        <li><%= link_to "新規投稿/贴文",new_music_path %></li>
+      </ul>
+      </div>
+    </header>
+    
+
+    
+
+    <div id-"foo">
+      <%= yield %>
+    </div>
+
+    
+    
+  </body>
+</html>
+</html>

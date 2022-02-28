@@ -1,0 +1,20 @@
+class LikesController < ApplicationController
+
+   
+
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+.flex_test-box {
+    display: flex; 
+    background-color:white;     /* 背景色指定 */
+    padding:  100px;  
+    align-items:center ;
+    justify-content:space-around
+    ;          /* 余白指定 */
+}
+ 
+.flex_test-item {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight:bold;
+    padding: 50px;
+    color:  rgb(31, 27, 27);               /* 文字色 */
+    margin:  50px;              /* 外側の余白 */
+    border-radius:  5px;
+    font-size: 50px;        /* 角丸指定 */
+}

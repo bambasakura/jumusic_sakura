@@ -1,0 +1,72 @@
+// Place all the styles related to the musics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+
+.person {
+  text-align: center;
+  width:100%;
+  margin:100px;
+  
+  
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  
+ 
+}
+.search-search {
+  text-align: center;
+  font-size: 100px;
+}
+.search-box{
+  text-align: center;
+  
+}
+
+.search-bottom{
+  text-align: center;
+  margin-bottom:60px;
+ 
+}
+
+
+
+.musics-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    gap: 200px 80px;
+    
+    
+    
+  }
+
+  .musics-item{
+    width: 1500px;
+    height: 2000px;
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    box-shadow: 0px 10px 20px 10px rgb(128, 128, 128);
+    overflow: auto;
+
+  }
+ .pagenate {
+  font-size: 60px;
+  margin-bottom: 100px;
+ } 
+.pagenateend {
+  font-size: 60px;
+}
